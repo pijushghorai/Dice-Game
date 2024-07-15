@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Button } from "../styled/Button";
 
 function StartGame({toggleGamePlay}) {
   return (
@@ -35,21 +36,4 @@ const Container = styled.div`
   }
 `;
 
-const Button = styled.button`
-  padding: 10px 18px;
-  background-color: #000000;
-  border-radius: 5px;
-  color: #ffffff;
-  min-width: 220px;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  border: 1px solid transparent;
-  transition: 0.2s ease;
 
-  &:hover {
-    background-color: #ffffff;
-    border: 1px solid black;
-    color: #000000;
-  }
-`;
